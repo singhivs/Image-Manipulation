@@ -1,0 +1,47 @@
+
+
+//    //use a borderlayout with drawing panel in center and button panel in south
+//    this.setLayout(new BorderLayout());
+//    imagePanel = new ImagePanel(currentImage);
+//    imagePanel.setPreferredSize(new Dimension(500, 500));
+//    BufferedImage image = new BufferedImage(100, 100,
+//            BufferedImage.TYPE_INT_RGB);
+//    g.setColor(new Color(0, 0, 0));
+//    g.fillRect(0, 0, currentImage.getHeight(), currentImage.getWidth());
+//    this.add(imagePanel, BorderLayout.NORTH);
+//    imagePanel.setVisible(true);
+
+//    JPanel graphPanel = new Graph(currentImage.createRedHistogram(),
+//            currentImage.createGreenHistogram(),
+//            currentImage.createBlueHistogram(),
+//            currentImage.createIntensityHistogram());
+//    graphPanel.setBounds(400, 255, 2000, 2000);
+//    graphPanel.setBorder(BorderFactory.createTitledBorder("Showing an image"));
+//    graphPanel.setLayout(new GridLayout(1, 0, 1, 1));
+//    this.add(graphPanel);
+
+
+//    Graph makeGraph = new Graph(currentImage.createRedHistogram(),
+//            currentImage.createGreenHistogram(),
+//            currentImage.createBlueHistogram(),
+//            currentImage.createIntensityHistogram());
+//    this.graph.add(makeGraph);
+
+
+
+
+////    mainPanel = new JPanel();
+////    //for elements to be arranged vertically within this panel
+////    mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
+////    //scroll bars around this main panel
+////    mainScrollPane = new JScrollPane(mainPanel);
+////    add(mainScrollPane);
+//
+//    //show an image with a scrollbar
+//    JPanel imagePanel = new JPanel();
+//    //a border around the panel with a caption
+//    imagePanel.setBorder(BorderFactory.createTitledBorder("Showing an image"));
+//    imagePanel.setLayout(new GridLayout(1, 0, 1, 1));
+//    //imagePanel.setMaximumSize(null);
+//    this.add(imagePanel);
+//
